@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  margin: 1.25rem;
+  background-color: rgb(181, 217, 252);
+  padding: 0.625rem;
+}
+
+.container {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.input {
+  display: none;
+}
+
+.meme-carousel {
+  width: 50rem;
+  overflow: hidden;
+}
+
+.memes {
+  display: flex;
+  justify-content: space-between;
+  transition: 0.7s ease-in-out;
+}
+
+.img {
+  width: 50rem;
+  height: 60vh;
+}
+
+.extra {
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.text-carousel {
+  width: 20rem;
+  overflow: hidden;
+}
+
+.texts {
+  width: 100rem;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.text {
+  width: 20rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.label {
+  width: 2rem;
+  height: 2rem;
+  border: 0.3125rem solid rgb(181, 217, 252);
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.label:hover {
+  border: 0.3125rem solid rgb(181, 217, 252);
+  background-color: rgba(0, 119, 255, 0.466);
+}
+
+.extra,
+.texts,
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
