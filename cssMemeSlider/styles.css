@@ -134,3 +134,161 @@
 #r5:checked~.extra .text-container .texts {
   margin-left: -80rem;
 }
+
+@media (max-width: 872px) {
+
+  .container {
+    width: 40rem;
+  }
+
+  .meme-carousel {
+    width: 40rem;
+  }
+
+  .img {
+    width: 40rem;
+    height: 55vh;
+  }
+
+  #r2:checked~.meme-container .memes {
+    margin-left: -40rem;
+  }
+
+  #r3:checked~.meme-container .memes {
+    margin-left: -80rem;
+  }
+
+  #r4:checked~.meme-container .memes {
+    margin-left: -120rem;
+  }
+
+  #r5:checked~.meme-container .memes {
+    margin-left: -160rem;
+  }
+}
+
+@media (max-width: 710px) {
+
+  .container {
+    width: 30rem;
+  }
+
+  .meme-carousel {
+    width: 30rem;
+  }
+
+  .img {
+    width: 30rem;
+    height: 55vh;
+  }
+
+  .buttons {
+    order: -1;
+    margin-bottom: 0.6rem;
+  }
+
+  .extra {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  #r2:checked~.meme-container .memes {
+    margin-left: -30rem;
+  }
+
+  #r3:checked~.meme-container .memes {
+    margin-left: -60rem;
+  }
+
+  #r4:checked~.meme-container .memes {
+    margin-left: -90rem;
+  }
+
+  #r5:checked~.meme-container .memes {
+    margin-left: -120rem;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .container {
+    width: 18rem;
+  }
+
+  .meme-carousel {
+    width: 18rem;
+  }
+
+  .img {
+    width: 18rem;
+    height: 55vh;
+  }
+
+  #r2:checked~.meme-container .memes {
+    margin-left: -18rem;
+  }
+
+  #r3:checked~.meme-container .memes {
+    margin-left: -36rem;
+  }
+
+  #r4:checked~.meme-container .memes {
+    margin-left: -54rem;
+  }
+
+  #r5:checked~.meme-container .memes {
+    margin-left: -72rem;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .container {
+    width: 15rem;
+  }
+
+  .meme-carousel {
+    width: 15rem;
+  }
+
+  .img {
+    width: 15rem;
+    height: 45vh;
+  }
+
+  .text-carousel {
+    width: 15rem;
+  }
+
+  .texts {
+    width: 75rem;
+  }
+
+  .text {
+    width: 15rem;
+  }
+
+
+
+  #r2:checked~.meme-container .memes,
+  #r2:checked~.extra .text-container .texts {
+    margin-left: -15rem;
+  }
+
+  #r3:checked~.meme-container .memes,
+  #r3:checked~.extra .text-container .texts {
+    margin-left: -30rem;
+  }
+
+
+  #r4:checked~.meme-container .memes,
+  #r4:checked~.extra .text-container .texts {
+    margin-left: -45rem;
+  }
+
+  #r5:checked~.meme-container .memes,
+  #r5:checked~.extra .text-container .texts {
+    margin-left: -60rem;
+  }
+}
