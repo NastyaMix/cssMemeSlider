@@ -84,3 +84,53 @@
   display: flex;
   justify-content: space-between;
 }
+
+#r1:checked~.extra .label:nth-child(1),
+#r2:checked~.extra .label:nth-child(2),
+#r3:checked~.extra .label:nth-child(3),
+#r4:checked~.extra .label:nth-child(4),
+#r5:checked~.extra .label:nth-child(5) {
+  border: 0.3125rem solid rgb(181, 217, 252);
+  background-color: rgb(0, 119, 255);
+  transition: 0.5s ease-in-out;
+}
+
+#r1:checked~.meme-container .memes {
+  margin-left: 0;
+}
+
+#r1:checked~.extra .text-container .texts {
+  margin-left: 0;
+}
+
+#r2:checked~.meme-container .memes {
+  margin-left: -50rem;
+}
+
+#r2:checked~.extra .text-container .texts {
+  margin-left: -20rem;
+}
+
+#r3:checked~.meme-container .memes {
+  margin-left: -100rem;
+}
+
+#r3:checked~.extra .text-container .texts {
+  margin-left: -40rem;
+}
+
+#r4:checked~.meme-container .memes {
+  margin-left: -150rem;
+}
+
+#r4:checked~.extra .text-container .texts {
+  margin-left: -60rem;
+}
+
+#r5:checked~.meme-container .memes {
+  margin-left: -200rem;
+}
+
+#r5:checked~.extra .text-container .texts {
+  margin-left: -80rem;
+}
